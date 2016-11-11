@@ -16,7 +16,7 @@
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: #1D2835;
   }
 
   .body {
@@ -28,25 +28,39 @@
 
   .headMenu {
     display: flex;
-    li {
-      flex: 1;
-      text-align: center;
-      padding: 1em;
-      font-size: 1.2em;;
-      color: white;
-      span {
-        margin-right: 1em;
-      }
-    }
+
+  li {
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2em;;
+    color: white;
+
+  a {
+    margin-right: 1em;
+    font-weight: bold;
+    color: #5C6671;
+    text-decoration: none;
+  }
+
+  .active {
+    color: white;
+  }
+
+  }
+  li:nth-child(2) {
+    flex: 3;
+  }
+
   }
 
   .fullPage {
     height: 100%;
     width: 100%;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
+    background-color: rgb(0, 0, 0);
   }
 
   .header {
@@ -62,14 +76,10 @@
     margin-right: .5em;
   }
 
-  .m_tab_container {
+  .pageContaner {
     flex: 1;
     background-color: #eeeeee;
-    /*background-color: blue;*/
-  }
-
-  .m_tab_container > div {
-    height: 100% !important;
+    background-color: #1D2335;
   }
 
   .footer {
@@ -86,21 +96,19 @@
     <div class="body">
       <div class="headMenu">
         <li></li>
-        <li><span @click="active='netease'">网易</span><span @click="active = 'qq'">QQ</span><span
-          @click="active = 'xiami'">虾米</span></li>
+        <li>
+          <router-link to="/netease" active-class="active">网易</router-link>
+          <router-link to="/qq" active-class="active">QQ</router-link>
+          <router-link to="/xiami" active-class="active">虾米</router-link>
+        </li>
         <li><span class="fa fa-search" @click="toggleFullPage"></span></li>
       </div>
-      <tab-container v-model="active" swipeable="swipeable" class="m_tab_container">
-        <tab-container-item id="netease" @click="toggleHeader">
-          <netease></netease>
-        </tab-container-item>
-        <tab-container-item id="qq" style="height:100%;overflow: auto;">
-          <qq></qq>
-        </tab-container-item>
-        <tab-container-item id="xiami">
-          <xiami></xiami>
-        </tab-container-item>
-      </tab-container>
+      <div class="pageContaner">
+        <keep-alive>
+          <router-view></router-view>
+        </keep-alive>
+      </div>
+
       <div class="fullPage" v-show="fullPageShow">
         <m-header title="固定在顶部" class="header" v-show="headerShow">
           <span slot="left" class="fa fa-angle-left return" @click="toggleFullPage">返回</span>
@@ -116,11 +124,8 @@
 
 <script type="es6">
   require('assets/font-awesome.min.css');
-  import Netease from './components/netease.vue'
-  import Qq from './components/qq.vue'
-  import Xiami from './components/xiami.vue'
-  import { TabContainer, TabContainerItem ,Header } from 'mint-ui';
-  import { mapState,mapActions } from 'vuex'
+  import { Header } from 'mint-ui';
+  import { mapState,mapActions ,mapMutations } from 'vuex'
   export default {
     data ()
     {
@@ -130,24 +135,18 @@
         radio: "1",
         type: "",
         transitionName: "",
-        fullPageShow:false
-
+        fullPageShow: false
       }
     },
-    computed: mapState([
+    computed: mapState({
       // 映射 state.count 到 store.this.count
-      'headerShow'
-    ]),
+      'headerShow': "headerShow",
+      "qqpage": state=>state.qq.qqpage
+    }),
 
     name: 'app',
     components: {
-      TabContainer,
-      TabContainerItem,
-      MHeader: Header,
-
-      Netease,
-      Qq,
-      Xiami
+      MHeader: Header
     },
     methods: {
       ...mapActions([
@@ -155,7 +154,13 @@
       ]),
       toggleFullPage (){
         this.fullPageShow = !this.fullPageShow;
+        this.changeQQ();
+      },
+
+      "changeQQ"(){
+        this.$store.commit("changeQQ")
       }
+
     }
   }
 </script>

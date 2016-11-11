@@ -6,11 +6,11 @@ import store from './store/store'
 import routerConfig from './router_confg'
 Vue.use(VueRouter);
 var router = new VueRouter({
-  routerConfig
+  routes: routerConfig
 });
 new Vue({
   el: '#app',
-  template:"<app></app>",
+  template: "<app></app>",
   components: {App},
   router,
   store

@@ -7,8 +7,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/qq.vue" afterPath="$PROJECT_DIR$/src/components/qq.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/actions.js" afterPath="$PROJECT_DIR$/src/store/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/mutations.js" afterPath="$PROJECT_DIR$/src/store/mutations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router_confg.js" afterPath="$PROJECT_DIR$/src/router_confg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/store.js" afterPath="$PROJECT_DIR$/src/store/store.js" />
     </list>
     <ignored path="vue2Demo.iws" />
@@ -30,34 +30,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32015067">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.142858">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-                <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-                <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-                <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-                <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-                <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-                <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-                <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-                <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-                <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+                <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+                <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+                <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+                <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+                <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+                <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+                <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+                <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+                <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+                <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+                <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="netease.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/netease.vue">
+      <file leaf-file-name="webpack.base.conf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state vertical-scroll-proportion="-0.2559322">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -66,8 +65,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state vertical-scroll-proportion="-19.678572">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -76,15 +75,19 @@
       <file leaf-file-name="qq.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/qq.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.571428">
-              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state vertical-scroll-proportion="-10.178572">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
-                <element signature="n#div#0;n#template#0;n#!!top" expanded="false" />
-                <marker date="1478780409476" expanded="true" signature="662:836" placeholder="/*...*/" />
-                <marker date="1478780409476" expanded="true" signature="763:782" placeholder="{...}" />
-                <marker date="1478780409476" expanded="true" signature="803:832" placeholder="{...}" />
-                <marker date="1478780409476" expanded="true" signature="855:912" placeholder="{...}" />
-                <marker date="1478780409476" expanded="true" signature="867:890" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="1865:2039" placeholder="/*...*/" />
+                <marker date="1478850276590" expanded="true" signature="1966:1985" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2006:2035" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2058:2780" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2076:2200" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2193:2200" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2217:2267" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2297:2776" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2316:2770" placeholder="{...}" />
+                <marker date="1478850276590" expanded="true" signature="2338:2762" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,7 +96,7 @@
       <file leaf-file-name="xiami.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/xiami.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7142856">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
@@ -103,18 +106,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.464286">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state vertical-scroll-proportion="-8.142858">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="router_confg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router_confg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state vertical-scroll-proportion="-6.107143">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -123,8 +126,8 @@
       <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.785714">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state vertical-scroll-proportion="-22.392857">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -133,7 +136,7 @@
       <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/mutations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
@@ -143,7 +146,7 @@
       <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0357144">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
@@ -174,20 +177,20 @@
         <option value="$PROJECT_DIR$/src/components/tradechange.vue" />
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/components/managementdisplay.vue" />
-        <option value="$PROJECT_DIR$/src/router_confg.js" />
         <option value="$PROJECT_DIR$/src/store/getters.js" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/components/netease.vue" />
         <option value="$PROJECT_DIR$/src/components/xiami.vue" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
         <option value="$PROJECT_DIR$/src/store/mutations.js" />
         <option value="$PROJECT_DIR$/src/store/actions.js" />
-        <option value="$PROJECT_DIR$/src/components/qq.vue" />
         <option value="$PROJECT_DIR$/src/store/store.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/router_confg.js" />
+        <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/src/components/qq.vue" />
       </list>
     </option>
   </component>
@@ -342,7 +345,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -433,7 +436,13 @@
       <option name="project" value="LOCAL" />
       <updated>1478167466478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加布局">
+      <created>1478782632780</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478782632780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -447,7 +456,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26393628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26309794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -474,28 +483,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改框架结构" />
     <MESSAGE value="添加文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文件" />
+    <MESSAGE value="添加布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加布局" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/managementdisplay.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -530,18 +525,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-            <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+            <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -590,18 +584,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-            <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+            <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -634,18 +627,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-            <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+            <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -685,18 +677,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-            <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+            <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -736,18 +727,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-            <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+            <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -787,18 +777,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-            <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+            <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -831,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router_confg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12624584">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/getters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -860,14 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/netease.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -876,95 +850,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030744337">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/xiami.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7142856">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.464286">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/mutations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/qq.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.571428">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" expanded="false" />
-            <marker date="1478780409476" expanded="true" signature="662:836" placeholder="/*...*/" />
-            <marker date="1478780409476" expanded="true" signature="763:782" placeholder="{...}" />
-            <marker date="1478780409476" expanded="true" signature="803:832" placeholder="{...}" />
-            <marker date="1478780409476" expanded="true" signature="855:912" placeholder="{...}" />
-            <marker date="1478780409476" expanded="true" signature="867:890" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48540145">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4433165">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state vertical-scroll-proportion="-22.392857">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.142858">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32015067">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.142858">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#tab-container-item#1;n#tab-container#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1478782562377" expanded="true" signature="2662:3252" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2662:3256" placeholder="{&quot;name&quot;: 'app'...}" />
-            <marker date="1478782562377" expanded="true" signature="2680:2851" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="2695:2845" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
-            <marker date="1478782562377" expanded="true" signature="2876:2945" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="2982:3094" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3110" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3109:3252" placeholder="{...}" />
-            <marker date="1478782562377" expanded="true" signature="3131:3163" placeholder="[...]" />
-            <marker date="1478782562377" expanded="true" signature="3189:3246" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2989" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2333:2993" placeholder="{&quot;name&quot;: 'app'...}" />
+            <marker date="1478846832912" expanded="true" signature="2351:2522" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2366:2516" placeholder="{&quot;radio&quot;: &quot;1&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2547:2670" placeholder="{&quot;headerShow&quot;: &quot;headerShow&quot;...}" />
+            <marker date="1478846832912" expanded="true" signature="2707:2736" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2752" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2751:2989" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2773:2805" placeholder="[...]" />
+            <marker date="1478846832912" expanded="true" signature="2831:2913" placeholder="{...}" />
+            <marker date="1478846832912" expanded="true" signature="2934:2982" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router_confg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.678572">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/qq.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <marker date="1478850276590" expanded="true" signature="1865:2039" placeholder="/*...*/" />
+            <marker date="1478850276590" expanded="true" signature="1966:1985" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2006:2035" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2058:2780" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2076:2200" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2193:2200" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2217:2267" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2297:2776" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2316:2770" placeholder="{...}" />
+            <marker date="1478850276590" expanded="true" signature="2338:2762" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2559322">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

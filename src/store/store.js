@@ -10,14 +10,24 @@ import * as mutations from './mutations'
 Vue.use(Vuex);
 var store = new Vuex.Store({
   state: {
-    headerShow: true
+    headerShow: true,
+    qqpage: "rootQQpage"
 
   },
   getters: {},
   mutations: mutations,
   actions: actions,
-  module: {
-    qq: {},
+  modules: {
+    qq: {
+      state: {
+        qqpage: "hello QQ"
+      },
+      mutations: {
+        changeQQ (state){
+          return state.qqpage = state.qqpage + "hello world";
+        }
+      }
+    },
     xiami: {},
     netease: {}
   }
