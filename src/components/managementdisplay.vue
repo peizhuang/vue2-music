@@ -1,4 +1,4 @@
-<style lang="less" scoped>
+<style rel="stylesheet/less" scoped lang="less">
   div {
     width: 100%;
     height: 100%;
@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<script type="es6">
+<script type="text/ecmascript-6">
   import { mapState,mapMutations,mapGetters,mapActions } from 'vuex'
   export default {
 

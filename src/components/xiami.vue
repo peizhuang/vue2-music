@@ -1,10 +1,10 @@
-<style lang="less">
+<style rel="stylesheet/less" lang="less">
 </style>
 
 <template>
   <div>xiami</div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 
 </script>

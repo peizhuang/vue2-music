@@ -1,5 +1,5 @@
-<style lang="less">
-  @fontSize :12px;
+<style rel="stylesheet/less" lang="less">
+  @fontSize: 14px;
   * {
     font-size: @fontSize;
     padding: 0;
@@ -29,28 +29,28 @@
   .headMenu {
     display: flex;
 
-  li {
-    flex: 1;
-    text-align: center;
-    padding: 1em;
-    font-size: 1.2em;;
-    color: white;
+    li {
+      flex: 1;
+      text-align: center;
+      padding: 1em;
+      font-size: 1.2em;;
+      color: white;
 
-  a {
-    margin-right: 1em;
-    font-weight: bold;
-    color: #5C6671;
-    text-decoration: none;
-  }
+      a {
+        margin-right: 1em;
+        font-weight: bold;
+        color: #5C6671;
+        text-decoration: none;
+      }
 
-  .active {
-    color: white;
-  }
+      .active {
+        color: white;
+      }
 
-  }
-  li:nth-child(2) {
-    flex: 3;
-  }
+    }
+    li:nth-child(2) {
+      flex: 3;
+    }
 
   }
 
@@ -86,13 +86,52 @@
     background-color: rgba(0, 0, 0, .8);
     padding: 1em;
     color: white;
+    display: flex;
+    li {
+      display: flex;
+      justify-content: center;
+    }
+    .info {
+      flex: 1;
+      padding: 0 1em;
+      flex-flow: column nowrap;
+    }
+    .action {
+      align-items: center;
+      padding-right: 1em;
+      span {
+        font-size: 2em;
+        padding-left: .5em;
+        color: #31C27C;
+        vertical-align: middle;
+      }
+    }
   }
+
+  #songIcon {
+    width: 3em;
+    height: 3em;
+  }
+  #songTitle {
+    color: #31C27C;
+    font-size: 1.2em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+  }
+  #singer {
+    font-size: .8em;
+  }
+  #play {
+    font-size: 2.5em;
+  }
+
 
 
 </style>
 <template>
   <div class="content">
-
     <div class="body">
       <div class="headMenu">
         <li></li>
@@ -105,7 +144,7 @@
       </div>
       <div class="pageContaner">
         <keep-alive>
-          <router-view></router-view>
+          <router-view style="height: 100%"></router-view>
         </keep-alive>
       </div>
 
@@ -117,15 +156,27 @@
       </div>
     </div>
     <div class="footer">
-      播放
+      <li class="icon">
+        <img src="dd" alt="" id="songIcon">
+      </li>
+      <li class="info">
+        <p id="songTitle">陪我去看海</p>
+        <p id="singer">大冰</p>
+      </li>
+      <li class="action">
+        <span id="lastSong" class="fa fa-backward"></span>
+        <span id="play" class="play fa fa-play"></span>
+        <span id="nextSong" class="fa fa-forward"></span>
+        <span id="playList" class="fa fa-indent"></span>
+      </li>
     </div>
   </div>
 </template>
 
-<script type="es6">
+<script type="text/ecmascript-6">
   require('assets/font-awesome.min.css');
-  import { Header } from 'mint-ui';
-  import { mapState,mapActions ,mapMutations } from 'vuex'
+  import {Header} from 'mint-ui';
+  import {mapState, mapActions, mapMutations} from 'vuex'
   export default {
     data ()
     {
@@ -143,7 +194,6 @@
       'headerShow': "headerShow",
       "qqpage": state=>state.qq.qqpage
     }),
-
     name: 'app',
     components: {
       MHeader: Header
