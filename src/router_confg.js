@@ -7,9 +7,9 @@ import  Netease from  './components/netease.vue'
 
 export  default [{
   path: "/",
-  component: "<template></template>"
+  component: "<template></template>",
+  redirect: "/qq"
 }, {
-  alias: "/",
   path: "/qq",
   component: Qq
 }, {

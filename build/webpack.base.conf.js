@@ -35,10 +35,6 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: require.resolve("axios"),
-        loader: "expose?axios"
-      },
-      {
         test: /\.vue$/,
         loader: 'vue'
       },

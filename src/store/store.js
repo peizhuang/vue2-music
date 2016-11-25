@@ -23,7 +23,7 @@ var store = new Vuex.Store({
         qqpage: "hello QQ"
       },
       mutations: {
-        changeQQ (state){
+        qq_showdiss (state, dissid){
           return state.qqpage = state.qqpage + "hello world";
         }
       }
